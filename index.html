@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="supraja">
+    <meta name="description" content="Easy to use Conversion Tool">
+    <link rel="stylesheet" href="style.css" />
+    <title> Number System Converter</title>
+  </head>
+  <body>
+    <div class="converter-body">
+      <h1 class="converter-title">Converter</h1>
+
+      <p id="display"></p>
+
+      <div class="input">
+        <input type="text" placeholder="Enter Value" id="input" />
+      </div>
+
+      <div>
+        <span>From</span>
+        <select id="inputType">
+          <option value="decimal">Decimal</option>
+          <option value="hexadecimal">Hexadecimal</option>
+          <option value="binary">Binary</option>
+          <option value="octal">Octal</option>
+        </select>
+      </div>
+
+      <div>
+        <span>To</span>
+        <select id="resultType">
+          <option value="decimal">Decimal</option>
+          <option value="hexadecimal">Hexadecimal</option>
+          <option value="binary">Binary</option>
+          <option value="octal">Octal</option>
+        </select>
+      </div>
+
+      <h3 id="result1"></h3>
+
+      <div class="buttons">
+        <button type="button" id="swap">Swap</button>
+        <button type="button" id="convert">Convert</button>
+      </div>
+
+      <div id="about">
+        <p> Javascript based Number System Conversion Tool.</p>
+        <p>
+          Let us Enter Any Number Taking as Input and then We Will convert it into Base value.
+          Also The output can be found opposite of the taken base value by Swapping the base values.
+        </p>
+      </div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+  </body>
+</html>
